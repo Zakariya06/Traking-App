@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traking App - Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/resposive.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="navbarContent">
+        <a href="#" class="navLink"><img src="./img/logo.png" alt="image" class="brandLogo" /></a>
+        <div class="navBtn">
+          <a href="./index.html" class="mainBtn">Follow a service</a>
+          <a href="./trakingPage.html" class="mainBtn btnFill">Create your service</a>
+        </div>
+        <img src="./img/hamberger-icon.svg" alt="img" class="hamberger" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- side Bar -->
+  <div class="offcanvas offcanvas-end customOffCanvas" tabindex="-1" id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <img src="./img/logo.png" alt="" class="canvasLogoImg" />
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body offCanvasBodyCustom">
+      <div class="canvasBtnWrapper">
+        <a href="./index.html" class="canvasBtn active">Follow a Service</a>
+        <a href="./trakingPage.html" class="canvasBtn">Create a service</a>
+      </div>
+
+      <h5 class="cavasCopyWriteText">© 2024. All rights reserved.</h5>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="heroSection">
+    <div class="container">
+      <div class="heroSectionContianer">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="heroSectionContent">
+              <h1 class="lgHeading">
+                Stay Updated, Stay in Control,<span>Track</span> Your Service
+                in Real-Time
+              </h1>
+              <p class="mainText">
+                Whether it’s a repair, maintenance, or consultation, use your
+                tracking code to monitor every step—from creation to pickup.
+                We bring transparency, so you never miss an update.
+              </p>
+              <a href="#" class="mainBtn btnFill">Get your Tracking</a>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="heroSectionTabContent">
+              <div class="tabBoxContainer">
+                <div class="tabBox">
+                  <div class="tabBoxLeft">
+                    <h4 class="mdHeading">Inbox</h4>
+                    <a href="#" class="boxBtn">Contact your service</a>
+                  </div>
+                  <div class="tabBoxRight">
+                    <img src="./img/setting-1.svg" alt="image" class="settingIcon" />
+                  </div>
+                </div>
+                <div class="tabConnectLine"></div>
+              </div>
+              <div class="tabBoxContainer tabBoxContainer2">
+                <div class="tabBox">
+                  <div class="tabBoxLeft">
+                    <h4 class="mdHeading">Service Acquired</h4>
+                    <a href="#" class="boxBtn">Work Started</a>
+                  </div>
+                  <div class="tabBoxRight">
+                    <img src="./img/arrow-up.svg" alt="image" class="arrowIcon" />
+                    <img src="./img/arrow-down.svg" alt="image" class="arrowIcon" />
+                    <img src="./img/setting-1.svg" alt="image" class="settingIcon" />
+                  </div>
+                </div>
+                <div class="tabConnectLine"></div>
+              </div>
+              <div class="tabBoxContainer tabBoxContainer3">
+                <div class="tabBox">
+                  <div class="tabBoxLeft">
+                    <h4 class="mdHeading">Work Update</h4>
+                    <a href="#" class="boxBtn">Work in progress</a>
+                  </div>
+                  <div class="tabBoxRight">
+                    <img src="./img/arrow-up.svg" alt="image" class="arrowIcon" />
+                    <img src="./img/arrow-down.svg" alt="image" class="arrowIcon" />
+                    <img src="./img/setting-1.svg" alt="image" class="settingIcon" />
+                  </div>
+                </div>
+                <div class="tabConnectLine"></div>
+              </div>
+              <div class="tabBoxContainer tabBoxContainer4">
+                <div class="tabBox">
+                  <div class="tabBoxLeft">
+                    <h4 class="mdHeading">Live Tracking</h4>
+                    <a href="#" class="boxBtn">Know where your service stands</a>
+                  </div>
+
+                  <div class="tabBoxLogoContainer">
+                    <div class="tabLogoWrapper">
+                      <img src="./img/logo.png" alt="image" class="tabLogo" />
+                    </div>
+                  </div>
+                  <img src="./img/left-line.svg" alt="image" class="tabConectLeftLine" />
+                  <img src="./img/bottom-line.svg" alt="image" class="tabConectBottomLine" />
+                </div>
+
+                <div class="completeBox">
+                  <div class="tabBox">
+                    <div class="tabBoxLeft">
+                      <h4 class="mdHeading">
+                        <img src="./img/complete.svg" alt="image" class="completeIcon" />
+                        Complete
+                      </h4>
+                      <a href="#" class="boxBtn">No effort</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+  <section class="serviceSection">
+    <img src="./img/section-top-curve-shape.png" alt="Image" class="serviceSectionCurveImg">
+    <div class="container">
+      <div class="serviceSectionContainer">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="serviceSectionContent">
+              <h2 class="lgHeading">Your Service Journey at a Glance</h2>
+              <p class="mainText">
+                Follow each milestone as your service moves from start to
+                finish. Stay informed at every stage with real-time updates.
+              </p>
+              <a href="#" class="mainBtn">Track My Service</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="serviceSectionImage">
+              <img src="./img/service-image.png" alt="image" class="serviceImage" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./img/section-bottom-curve-shape.png" alt="Image" class="serviceSectionCurveImg serviceCurveBottomImg">
+  </section>
+
+  <!-- Features section -->
+  <section class="featuresSection">
+    <div class="container">
+      <div class="featureContainer">
+        <div class="featureHeader">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="featureHeaderContent">
+                <h2 class="lgHeading">
+                  Amazing <span>Features</span> Mon Petit Traqueur Offers?
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-5 ms-lg-auto">
+              <div class="featureHeaderContent">
+                <p class="mainText">
+                  Get full visibility of your service from start to finish,
+                  without the hassle of phone calls or waiting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">No Guesswork</h5>
+              <p class="mainText">
+                Tired of fielding endless customer inquiries about service
+                progress? With Mon Petit Traqueur, you give your customers the
+                power to track their service in real-time. Once a service
+                request is created, they can monitor every step of the process
+                from acceptance to completion—reducing the need for follow-ups
+                and unnecessary calls.
+              </p>
+
+              <div class="featureTabConatiner">
+                <div class="processCard">
+                  <div class="prcessCardHeader">
+                    <h5 class="smHeading">Easy use</h5>
+                    <h3 class="mdHeading">Easy steps process</h3>
+                  </div>
+                  <div class="processCardContent">
+                    <div class="prceesCardContentTab">
+                      <img src="./img/process-1.svg" alt="image" class="processIcon" />
+                      <div class="processCardContentText">
+                        <h5 class="mdHeading">Streamline Workflow</h5>
+                        <h3 class="smHeading">2 more steps left</h3>
+                      </div>
+                    </div>
+                    <div class="processCardContentLine">
+                      <div class="processCardLineFill"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Keep Customers Informed 24/7</h5>
+              <p class="mainText">
+                No more frustrated customers left wondering where things
+                stand. With Mon Petit Traqueur, every step of the service is
+                automatically tracked and visible to your clients, ensuring
+                they are always in the loop. If there’s a delay or a key
+                milestone is reached, they’ll see it instantly—giving them
+                confidence in your process.
+              </p>
+
+              <div class="featureTabConatiner featureChartContainer">
+                <div class="processCard pb-0 ">
+                  <div class="prcessCardHeader">
+                    <h5 class="smHeading">Work Progress-2024</h5>
+                    <h3 class="mdHeading">Last step</h3>
+                  </div>
+                  <div class="processCardContent pb-0 mt-0">
+                    <div class="chartContainer" id="columnChart"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Instant Alerts</h5>
+              <p class="mainText">
+                Build stronger customer relationships by keeping them
+                proactively informed. With Mon Petit Traqueur, your clients
+                will receive notifications via SMS or email every time their
+                service status changes. Whether it’s a new request being
+                accepted, a repair underway, or the job being marked as
+                complete, they’ll know the moment it happens.
+              </p>
+
+              <div class="featureTabConatiner processCardContentCenter">
+                <div class="processCardContent">
+                  <div class="processCardCenterTab">
+                    <div class="prceesCardContentTab">
+                      <img src="./img/process-2.svg" alt="image" class="processIcon" />
+                      <div class="processCardContentText">
+                        <h5 class="mdHeading">New update</h5>
+                        <h3 class="smHeading">Moving to next step</h3>
+                      </div>
+                    </div>
+                    <a href="#" class="mainBtn btnFill">View Update</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Convenience First</h5>
+              <p class="mainText">
+                Mon Petit Traqueur makes your business operations more
+                accessible than ever. Your customers can track service
+                progress from their smartphone, tablet, or computer—wherever
+                they are. This level of convenience enhances their experience,
+                whether they’re waiting for a product repair, maintenance
+                service, or consulting appointment.
+              </p>
+
+              <div class="featureTabConatiner processCardContentCenter">
+                <div class="processCardContent">
+                  <div class="processCardCenterTab">
+                    <div class="prceesCardContentTab">
+                      <img src="./img/process-3.svg" alt="image" class="processIcon" />
+                      <div class="processCardContentText">
+                        <h5 class="mdHeading">My All Tasks</h5>
+                        <h3 class="smHeading">Addition of 25 more</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Section -->
+  <section class="reviewSection">
+    <div class="col-lg-6 mx-auto">
+      <div class="reviewSectionContainer">
+        <img src="./img/Rating.png" alt="image" class="reviesStarImg" />
+        <p class="mainText">
+          "Mon Petit Traqueur has transformed the way we handle service
+          requests. Customers love the tracking feature, and we’ve seen a
+          noticeable drop in phone inquiries."
+        </p>
+
+        <div class="reviwerDeatail">
+          <img src="./img/Avatar.png" alt="" class="reverImg" />
+          <div class="reviewText">
+            <h1 class="mdHeading">Julie M</h1>
+            <h5 class="smHeading">Repair Shop Owner</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Growth section -->
+  <section class="featuresSection growthSection">
+    <div class="container">
+      <div class="featureContainer">
+        <div class="featureHeader text-center">
+          <h2 class="lgHeading">
+            Unlock <span>Growth</span> with Mon Petit Traqueur
+          </h2>
+          <p class="mainText mt-3">
+            Get full visibility of your service from start to finish, without
+            the hassle of Whether it’s a repair, maintenance, or consultation,
+            use your tracking code to monitor every step—from creation to
+            pickup. We bring transparency, so you never miss an update.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Enhance Customer Communication</h5>
+              <p class="mainText">
+                Stay connected with customers through automated updates and
+                real-time service tracking. Keep them in the loop every step
+                of the way.
+              </p>
+              <img src="./img/growth-card-img-1.png" alt="" class="growthCardImg" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Boost Productivity</h5>
+              <p class="mainText">
+                Let your team focus on what they do best—delivering quality
+                service—while Mon Petit Traqueur takes care of notifications
+                and progress tracking.
+              </p>
+
+              <img src="./img/growth-card-img-2.png" alt="" class="growthCardImg" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Strengthen Customer Relationships</h5>
+              <p class="mainText">
+                Deliver a seamless service experience with transparency and
+                efficiency, increasing customer satisfaction and earning
+                glowing reviews.
+              </p>
+
+              <img src="./img/growth-card-img-3.png" alt="" class="growthCardImg" />
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="featureCard">
+              <h5 class="mdHeading">Elevate Customer Satisfaction</h5>
+              <p class="mainText">
+                Create meaningful, long-term relationships by exceeding
+                expectations with every service interaction. Satisfied
+                customers are more likely to recommend your business.
+              </p>
+
+              <img src="./img/growth-card-img-4.png" alt="" class="growthCardImg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- work Section -->
+  <section class="workSection">
+    <img src="./img/work-top-layer-img.png" alt="img" class="workTopLayerImg" />
+    <img src="./img/work-bottom-layer-img.png" alt="img" class="workBottomLayerImg" />
+    <div class="container">
+      <div class="workSectionContainer">
+        <div class="wrokSectionTopContainer">
+          <div class="featureHeader">
+            <h2 class="lgHeading">
+              How It <span> Works</span>: Make Every Service Effortless and
+              Transparent
+            </h2>
+            <p class="mainText mt-3">
+              Provide full visibility for your customers, so they can follow
+              every step of the service process. From job acceptance to
+              completion, Mon Petit Traqueur shows live progress updates that
+              give customers peace of mind without any need to contact your
+              team.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-lg-4">
+            <div class="workCard">
+              <div class="workCardHeader">
+                <img src="./img/work-card-icon-1.svg" alt="image" class="workCardIcon" />
+                <h4 class="mdHeading">
+                  Create the <br />
+                  Service
+                </h4>
+              </div>
+              <p class="mainText">
+                Once a customer places a request (repair, maintenance, etc.),
+                your team logs the service in Mon Petit Traqueur.
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="workCard">
+              <div class="workCardHeader">
+                <img src="./img/work-card-icon-2.svg" alt="image" class="workCardIcon" />
+                <h4 class="mdHeading">
+                  Share the Tracking <br />
+                  Code
+                </h4>
+              </div>
+              <p class="mainText">
+                The system generates a unique tracking code that is shared
+                with your customer via SMS or email.
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 workCardBottomMobleNone">
+            <div class="workCard">
+              <div class="workCardHeader">
+                <img src="./img/work-card-icon-2.svg" alt="image" class="workCardIcon" />
+                <h4 class="mdHeading">
+                  Keep Customers Updated <br />
+                  Automatically
+                </h4>
+              </div>
+              <p class="mainText">
+                Every time your team makes progress—like ordering a part or
+                completing a task—an update is sent automatically.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 mx-auto">
+          <div class="workDesingLineBox">
+            <div class="centerStratLine"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mx-auto">
+          <div class="workCard workCardBottom">
+            <div class="workCardHeader">
+              <img src="./img/work-card-icon-2.svg" alt="image" class="workCardIcon" />
+              <h4 class="mdHeading">
+                Keep Customers Updated <br />
+                Automatically
+              </h4>
+            </div>
+            <p class="mainText">
+              Every time your team makes progress—like ordering a part or
+              completing a task—an update is sent automatically.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mx-auto">
+          <div class="workTabContainer">
+            <div class="tabBox">
+              <div class="tabBoxLogoContainer">
+                <div class="tabLogoWrapper">
+                  <img src="./img/logo.png" alt="image" class="tabLogo" />
+                </div>
+              </div>
+            </div>
+
+            <img src="./img/work-bottom-line.svg" alt="" class="workDesginBottomLine" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 mx-auto">
+          <div class="workTabContainer workTabContainerTwo">
+            <div class="workCard">
+              <div class="workCardHeader">
+                <img src="./img/work-card-icon-3.svg" alt="image" class="workCardIcon" />
+                <h4 class="mdHeading">Completion and Collection</h4>
+              </div>
+              <p class="mainText">
+                When the service is complete, customers are notified instantly
+                and given instructions on the next steps for collection or
+                follow-up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="col-lg-7 mx-auto">
+      <div class="footerQuestionContiner">
+        <h1 class="mdHeading">Do you have any questions?</h1>
+        <p class="mainText">
+          We will provide detailed information about our services, types of
+          work, and top projects.
+        </p>
+
+        <div class="inputHolder">
+          <input type="number" class="inputArea" placeholder="+1" />
+          <button class="mainBtn">Send request</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footerContentWrapper">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footerContactInfoCol">
+              <img src="./img/logo-2.svg" alt="logo" class="footerLogo" />
+
+              <div class="footerContactInfoContainer">
+                <div class="footerContactInfoText">
+                  <a href="#" class="footerLink">+1 891 989-11-91</a>
+                  <a href="#" class="footerLink">support@monpetittraqueur.com</a>
+                </div>
+                <div class="contactInfoIcon">
+                  <a href="#" class="socialLink">
+                    <img src="./img/twitter-icon.svg" alt="img" class="infoIcon" />
+                  </a>
+                  <a href="#" class="socialLink">
+                    <img src="./img/whatsapp-icon.svg" alt="img" class="infoIcon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ms-auto">
+            <div class="footerLinksContainer">
+              <h4 class="smHeading">Catalog</h4>
+              <a href="./index.html" class="footerLink">Create service</a>
+              <a href="./trakingPage.html" class="footerLink">Follow a service</a>
+              <a href="./privcyPolicy.html" class="footerLink">Privacy policy</a>
+              <a href="./legalNotices.html" class="footerLink">Legal notice</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6 class="footerCopyWriteText">© 2024 — Copyright</h6>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/chart.js"></script>
+</body>
+
+</html>

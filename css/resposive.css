@@ -1,0 +1,431 @@
+@media only screen and (max-width: 1200px) {
+  /* hero Section */
+  .heroSection {
+    padding: 5rem 0rem;
+    padding-bottom: 8rem;
+  }
+  .lgHeading {
+    font-size: 2.3rem;
+  }
+  .mainText {
+    font-size: 1.1rem;
+  }
+  .heroSection .mainText {
+    width: 95%;
+  }
+  .completeBox {
+    position: absolute;
+    top: auto;
+    bottom: -6.8rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .tabConectLeftLine {
+    display: none;
+  }
+  .tabConectBottomLine {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 36%;
+    transform: translateX(-50%);
+  }
+  .heroSectionTabContent {
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+  }
+  .tabBox {
+    padding: 0.8rem 1rem;
+  }
+  .tabBoxLeft {
+    gap: 0.8rem;
+  }
+  .mdHeading {
+    font-size: 1rem;
+  }
+  .boxBtn {
+    font-size: 0.75rem;
+    padding: 0.36rem 0.8rem;
+  }
+  .tabBoxRight {
+    gap: 0.6rem;
+  }
+  .tabBoxLogoContainer {
+    padding: 3rem 0.7rem;
+  }
+
+  /* --------------------------- Tracking Page --------------------------- */
+  .trakingInputGroup {
+    width: 100%;
+  }
+  .trakingInput {
+    flex: 1;
+    font-size: 1rem;
+  }
+  .trakingCardContainer {
+    margin-top: 5rem;
+  }
+}
+
+/* 992 media */
+@media (max-width: 992px) {
+  /*hamberger  */
+  .hamberger {
+    display: block;
+  }
+  .navBtn {
+    display: none;
+  }
+  /* nav */ 
+  .serviceSection {
+    padding: 4rem 0rem;
+    display: block;
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+  }
+  .serviceSectionCurveImg{
+    position: absolute;
+    bottom: 99%;
+    left: 0;
+    width: 150%;
+    height: auto;
+  }
+  .serviceCurveBottomImg{
+    top: 99%; 
+  }
+
+  .serviceSection .row {
+    flex-direction: column-reverse;
+  }
+  .serviceSectionContent .lgHeading {
+    color: var(--white-color);
+  }
+  .serviceSectionContent .mainText {
+    color: var(--white-color);
+    margin: 1rem 0;
+  }
+  .serviceSectionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .serviceImage {
+    width: 100%;
+    height: auto;
+  }
+
+  /* featuresSection */
+  .featuresSection {
+    padding: 8rem 0rem;
+  }
+  .featureCard > .mdHeading {
+    font-size: 1.8rem;
+  }
+  .featureCard .mainText {
+    font-size: 0.87rem;
+  }
+
+  .featureTabConatiner {
+    padding-left: 3rem;
+  }
+  .processCard {
+    padding: 1.5rem;
+  }
+  .smHeading {
+    font-size: 0.9rem;
+  }
+  .processCard .mdHeading {
+    font-size: 1.1rem;
+  }
+  .prceesCardContentTab {
+    gap: 0.8rem;
+  }
+  .prceesCardContentTab .mdHeading {
+    font-size: 1rem;
+  }
+  .prceesCardContentTab .smHeading {
+    font-size: 0.8rem;
+  }
+  .featureChartContainer {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+  }
+  .processCardContentCenter {
+    padding: 5rem 1rem;
+  }
+  .processCardCenterTab {
+    padding: 0.9rem;
+  }
+  /* reviewSection */
+  .reviewSection {
+    padding: 0 2rem;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    background-size: 100% 100%;
+  }
+  .reviewSectionContainer {
+    padding: 1.5rem;
+  }
+  .reviewSectionContainer .mainText {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+  }
+  .reviwerDeatail {
+    gap: 0.6rem;
+  }
+  .reviwerDeatail .mdHeading {
+    font-size: 0.8rem;
+  }
+  .reviwerDeatail .smHeading {
+    font-size: 0.7rem;
+  }
+
+  /* growthSection */
+  .growthSection {
+    padding-top: 3rem;
+  }
+  .growthSection .featureCard .mdHeading {
+    font-size: 1.8rem;
+  }
+  .growthSection .mainText {
+    font-size: 0.9rem;
+  }
+  .growthCardImg {
+    margin-top: 1.5rem;
+  }
+
+  /* work section */
+  .workCardBottomMobleNone {
+    display: none;
+  }
+  /* workDesingLineBox */
+  .workDesingLineBox {
+    width: 100%;
+    height: 50px;
+  }
+  .centerStratLine {
+    top: 100%;
+    height: 300px;
+  }
+  .workDesginBottomLine {
+    top: 83%;
+  }
+  .workCardBottom {
+    margin-top: 2rem;
+    display: block;
+  }
+  /* workTabContainer */
+  .workTabContainer {
+    margin-top: 2.5rem;
+  }
+  /* work Section */
+  .workSection {
+    padding: 8rem 0rem;
+    padding-top: 0;
+  }
+  .workSection .featureHeader {
+    text-align: left;
+  }
+  .workSection .featureHeader .mainText {
+    font-size: 1.1rem;
+  }
+  .workCard {
+    padding: 1rem;
+  }
+  .workCardHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .workCard .mdHeading {
+    font-size: 1rem;
+    transform: translateY(-13px);
+  }
+  .workCard .mainText {
+    font-size: 0.8rem;
+  }
+  .workTabContainerTwo {
+    margin-top: 5rem;
+  }
+
+  /* footerContactInfoContainer */
+  .footerContentWrapper {
+    padding: 4rem 1rem;
+  }
+  .contactInfoIcon {
+    gap: 0.4rem;
+  }
+  .footerLinksContainer .smHeading {
+    margin-top: 1.4rem;
+  }
+  /* footer */
+  .footerQuestionContiner {
+    padding: 2rem 1rem;
+  }
+  .inputHolder {
+    gap: 0.5rem;
+  }
+  .inputArea {
+    width: 70%;
+    padding-left: 0.2rem;
+  }
+
+  /* -------------- Privacy Policy -------------- */
+  .privacyPolicyTabLinkDesktop {
+    display: none;
+  }
+  .privacyPolicySection {
+    padding: 3rem 1rem;
+  }
+  .privecyHeader {
+    padding: 1.5rem 1rem;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+  .privcyTabContentContainer {
+    padding: 2rem 1.5rem;
+    padding-right: 0.6rem;
+  }
+  .privcyTabContentContainer .tab-content {
+    padding-right: 1rem;
+  }
+  .privcyTabContentContainer .tab-content::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tabBox {
+    padding: 0.8rem 0.8rem;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+  .tabBoxLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  .mdHeading {
+    font-size: 0.9rem;
+  }
+  .tabBoxContainer {
+    margin-bottom: 1rem;
+  }
+  .boxBtn {
+    font-size: 0.6rem;
+    padding: 0.35rem 0.8rem;
+  }
+  .tabConnectLine {
+    top: 100%;
+    right: 2%;
+    border-bottom-right-radius: 10px;
+  }
+  .tabBoxRight {
+    gap: 0.3rem;
+  }
+  .tabBoxRight img {
+    width: 1rem;
+    height: auto;
+  }
+  .tabBoxContainer2 {
+    transform: translateX(-4%);
+  }
+  .tabBoxContainer2 .tabBox {
+    width: 87%;
+  }
+  .tabBoxContainer3 {
+    transform: translateX(-8%);
+  }
+  .tabBoxContainer3 .tabBox {
+    width: 87%;
+  }
+  .tabBoxContainer3 .boxBtn {
+    color: #7f56d9;
+    background: #f9f5ff;
+  }
+  .tabBoxContainer4 {
+    width: 100%;
+    transform: translateX(-14%);
+  }
+  .tabBoxContainer4 .tabBox {
+    width: 87%;
+  }
+  .completeBox .tabBox {
+    width: 100%;
+  }
+  .completeBox {
+    bottom: -5.8rem;
+  }
+  .tabConectBottomLine {
+    left: 40%;
+  }
+
+  /* --------------------------- Tracking Page --------------------------- */
+
+  .trakingCardContainer {
+    padding: 1rem;
+  }
+  .trakingTopBtn {
+    padding: 0.6rem 0;
+    font-size: 0.9rem;
+  }
+  .trakingCardContent {
+    padding: 1.4rem 0.2rem;
+  }
+  .trakingCardContentItem {
+    padding: 0.2rem;
+  }
+  .trakingCardContentIconContainer {
+    gap: 0.3rem;
+  }
+  .trakingCardContentTextContainer .smHeading {
+    font-size: 0.7rem;
+  }
+  .trakingCardContentTextContainer .mdHeading {
+    font-size: 0.8rem;
+  }
+  .trakingCardContentBtn {
+    gap: 0.3rem;
+    font-size: 0.65rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .activeTrakingSelectIcon {
+    width: 3px;
+  }
+  .processCardCenterTab .mainBtn{
+    background: red;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.65rem;
+  }
+  .processCardCenterTab img{
+    width: 3rem;
+    height: auto;
+  }
+ .featureChartContainer .processCardContent { 
+    padding: 0;
+  }
+  .featureChartContainer .processCard {
+    padding-right: 0;
+  }
+}
+@media (max-width: 375px) {
+  .trakingInputGroup {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+  .trakingCardContainer {
+    padding: 0.7rem;
+  }
+  .trakingCardContent {
+    padding: 1rem 0rem;
+  }
+  .processCardCenterTab{
+    flex-wrap: wrap;
+    row-gap: 0.7rem;
+  }
+}
